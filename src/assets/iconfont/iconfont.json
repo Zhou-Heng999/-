@@ -1,0 +1,51 @@
+{
+  "id": "3480847",
+  "name": "admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "后台管理图标",
+  "glyphs": [
+    {
+      "icon_id": "577357",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "8634405",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10792640",
+      "name": "新增角色用户_新增新建操作_jurassic",
+      "font_class": "jurassic_add-user",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "11134713",
+      "name": "权限管理",
+      "font_class": "quanxianguanli",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "12560892",
+      "name": "详情",
+      "font_class": "xiangqing-",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "8224810",
+      "name": "展开",
+      "font_class": "zhankai",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

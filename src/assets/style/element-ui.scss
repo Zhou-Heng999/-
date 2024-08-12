@@ -1,0 +1,232 @@
+// cover some element-ui styles
+.el-badge__content.is-fixed {
+  top: 11px !important;
+  right: 28px !important;
+}
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+.el-form-item__label {
+  font-weight: 700;
+}
+// .el-sub-menu .el-sub-menu__icon-arrow {
+//   right: 0 !important;
+// }
+
+.el-dialog {
+  --el-dialog-margin-top: 15px !important;
+  // margin-right: 100px !important;
+}
+
+.el-upload__input {
+  display: none;
+}
+.el-select-dropdown__option-item {
+  font-size: 14px !important;
+}
+.el-overlay,
+.el-overlay-dialog {
+  // top: 130px !important;
+  // left: 210px !important;
+}
+// .el-table .el-table__cell {
+//   padding: 4px 0 !important;
+// }
+// .el-overlay,
+// .el-overlay-dialog {
+//   position: absolute !important;
+// }
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .el-dialog__body {
+    max-height: 75vh !important;
+    overflow: scroll !important;
+  }
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// el-select-v2
+.el-select-dropdown {
+  min-width: 220px;
+}
+.el-vl__window.el-select-dropdown__list {
+  width: auto !important;
+  min-width: 380px !important;
+}
+.el-select-dropdown__option-item {
+  overflow: visible !important;
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+.el-table {
+  font-size: 12px !important;
+}
+.el-descriptions__body .el-descriptions__table .el-descriptions__cell {
+  font-size: 12px !important;
+}
+.el-descriptions__title {
+  font-size: 14px !important;
+}
+:root {
+  --el-font-size-base: 12px !important;
+  --el-font-size-medium: 14px !important;
+  --el-dialog-content-font-size: 12px !important;
+}
+.el-card {
+  --el-card-padding: 13px !important;
+}
+
+// ::-webkit-scrollbar {
+//   /*滚动条整体样式*/
+//   width: 5px;
+//   /*高宽分别对应横竖滚动条的尺寸*/
+//   height: 8px;
+// }
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px #ccc;
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #fff;
+  border-radius: 10px;
+  background: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+  .el-card__body {
+    padding: 7px !important;
+  }
+  .el-card__header {
+    padding: 15px 10px !important;
+  }
+  :root {
+    --el-font-size-base: 12px !important ;
+  }
+  .el-dialog__body {
+    padding: 15px 10px !important;
+  }
+  .el-picker-panel__body-wrapper {
+    width: 100vw !important;
+  }
+  .el-date-range-picker .el-picker-panel__body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    min-width: 100vw !important;
+    margin: 0 !important;
+  }
+  .el-date-range-picker__content,
+  .el-date-range-picker {
+    width: 100% !important;
+  }
+  // .el-form-item__content {
+  //   margin-left: 20px !important;
+  // }
+  .el-sub-menu {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .menu-wrapper {
+    min-width: 130px !important;
+  }
+  .el-sub-menu .el-menu-item {
+    min-width: 50px !important;
+    width: 100px;
+  }
+  .el-radio {
+    margin-right: 10px !important;
+  }
+  .el-popover {
+    padding: 1px !important;
+  }
+  ::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 0px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0px;
+  }
+  .el-overlay.is-message-box .el-overlay-message-box {
+    display: flex;
+    align-items: center;
+  }
+  .el-space--vertical {
+    width: 100%;
+  }
+  .el-tabs__item:focus {
+    outline: none;
+  }
+  .el-table--border th,
+  td {
+    border: 1px solid transparent !important;
+    border-right: none;
+  }
+
+  .el-table__row td {
+    border: 1px solid transparent !important;
+    border-right: none;
+  }
+
+  .el-table::before {
+    height: 0;
+  }
+  .el-popper:focus {
+    outline: none !important;
+  }
+
+  .el-table.is-scrolling-middle
+    .el-table-fixed-column--left.is-last-column::before {
+    box-shadow: spread 10px 0 10px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  // .el-table.is-scrolling-left
+  //   .el-table-fixed-column--right.is-first-column::before {
+  //   box-shadow: none;
+  // }
+}
+.el-message {
+  top: 50% !important ;
+  transform: translate(-50%, -50%) !important;
+}
+
+// 时间选择器
+.el-date-editor .el-range-separator {
+  width: 7%;
+}
+@import "element-plus/theme-chalk/display.css";
